@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact i {
+            margin-right: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills .skill {
+            background-color: #007acc;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asavari Mhadgut</h1>
+        <p>IT Engineer</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Personal profile</h2>
+            <p>Enthusiastic hard working IT engineer on a trail of find a challenging position. Keen to evolve as a developer. Also I am highly motivated social media expertr.</p>
+        </section>
+    <div class="container">
+        <section class="section">
+            <h2>Education</h2>
+            <p>** Bachelor of Engineering (IT)</p>
+            <p>Mumbai University (2019-2023)</p>
+            <p>** Higher secondary certificate (HSC) - 70%</p>
+            <p>Maharashtra state board (2019)</p>
+            <p>** Secondary school certificate (SSC) - 98%</p>
+            <p>Maharashtra state board (2017)</p>
+        </section>
+        <section class="section">
+            <h2>Contact Information</h2>
+            <ul>
+                <li class="contact"><i class="fas fa-envelope"></i> Email ID: asavarimhadgut@gmail.com</li>
+                <li class="contact"><i class="fas fa-phone"></i>Contact no.: 9422555102</li>
+                <li class="contact"><i class="fas fa-globe"></i> Instagram: instagram/ashu_mhadgut</li>
+                <li class="contact"><i class="fab fa-linkedin"></i> LinkedIn: www.linkedin.com/in/ashu_mhadgut</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+             <section class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li class="contact"><i class="fas fa-envelope"></i> ** Python developer</li>
+                <li class="contact"><i class="fas fa-phone"></i>Maxgene Technology pvt ltd</li>
+                <li class="contact"><i class="fas fa-globe"></i> ** Web Desighner</li>
+                <li class="contact"><i class="fab fa-linkedin"></i> Reva Tech Software solutions</li>
+            </ul>
+        </section>
+           <section class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li class="contact"><i class="fas fa-envelope"></i> ** Email Monitoring system</li>
+                <li class="contact"><i class="fas fa-phone"></i>** Car parking system</li>
+            </ul>
+        </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
